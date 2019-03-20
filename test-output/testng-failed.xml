@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.fm.WhereToBuy">
+        <methods>
+          <include name="testWhereToBuy"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fm.WhereToBuy -->
+      <class name="com.fm.PartsFinder">
+        <methods>
+          <include name="showVehicle"/>
+          <include name="showLicensePlate"/>
+          <include name="showVin"/>
+          <include name="showCompetitor"/>
+        </methods>
+      </class> <!-- com.fm.PartsFinder -->
+      <class name="com.fm.AllUserRegistration">
+        <methods>
+          <include name="registerRetailShopOwner" invocation-numbers="0"/>
+          <include name="registerWarehouseDistributorLightVehicle" invocation-numbers="0"/>
+          <include name="registerRetailer" invocation-numbers="0"/>
+          <include name="registerJobber" invocation-numbers="0"/>
+          <include name="registerFMEmployee" invocation-numbers="0"/>
+          <include name="registerTechnician" invocation-numbers="0"/>
+          <include name="registerWarehouseDistributorCommercialVehicle" invocation-numbers="0"/>
+          <include name="registerStudent" invocation-numbers="0"/>
+          <include name="registerConsumer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.fm.AllUserRegistration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
